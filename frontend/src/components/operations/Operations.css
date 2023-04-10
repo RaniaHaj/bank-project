@@ -1,0 +1,63 @@
+.addTransactionContainer {
+  display: grid;
+  grid-template-rows: repeat(350px);
+  border-radius: 12px;
+  border: 2px solid grey;
+  width: 610px;
+  margin-left: 45px;
+  margin-top: 45px;
+  padding: 20px;
+}
+
+.inputField {
+  margin: 15px;
+  height: 60px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inputField::placeholder {
+  padding-left: 25px;
+}
+
+.insertLabel {
+  font-size: 30px;
+  font-weight: bold;
+  color: #30083f;
+  display: flex;
+  margin-left: 20px;
+}
+
+.makeOperation {
+  display: flex;
+}
+
+.action {
+  margin: 10px 20px;
+  width: 105px;
+  height: 55px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.deposit {
+  background-color: rgb(93, 207, 99);
+}
+
+.withdraw {
+  background-color: rgb(231, 101, 101);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield; 
+}

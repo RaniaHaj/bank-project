@@ -1,0 +1,40 @@
+.breakdown {
+  width: 30%;
+  display: grid;
+  margin: 80px 80px;
+  grid-template-rows: repeat(1fr);
+  padding: 2%;
+  grid-gap: 20px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.category {
+  display: grid;
+  padding: 6px;
+  grid-gap: 10px;
+  height: 45px;
+  font-size: 25px;
+  border-radius: 4px;
+  align-items: center;
+  border-radius: 12px;
+  border: solid 1px black;
+  justify-content: start;
+}
+
+.category label {
+  margin-left: 20px;
+}
+
+@media (max-width: 650px) {
+  .breakdown {
+    width: 80%;
+    display: grid;
+    margin: 80px 80px;
+    grid-template-rows: repeat(1fr);
+    padding: 2%;
+    grid-gap: 20px;
+    border-radius: 12px;
+    border: 1px solid black;
+  }
+}
